@@ -3,17 +3,14 @@ package Vehicuulos;
 public class Odometro 
 {
    private int distanciaRecorrida = 0;
-   
-   
-   public int getDistanciaRecorrida()
+
+   public int getDistanciaRecorrida() 
    {
-	   return distanciaRecorrida;
+       return distanciaRecorrida;
    }
-   
-   public void setDistanciaRecorrida(int distanciaRecorrida)
+
+   public void setDistanciaRecorrida(int distancia) 
    {
-       this.distanciaRecorrida = distanciaRecorrida;
+       distanciaRecorrida = distancia;
    }
-   
-	
 }
